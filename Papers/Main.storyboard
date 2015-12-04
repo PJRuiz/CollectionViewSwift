@@ -69,9 +69,6 @@
                                     <constraint firstItem="lO5-ct-Hyz" firstAttribute="top" secondItem="dYN-gp-629" secondAttribute="top" constant="2" id="mwr-hH-3m7"/>
                                     <constraint firstAttribute="trailing" secondItem="lO5-ct-Hyz" secondAttribute="trailing" constant="2" id="nWh-yg-7n9"/>
                                 </constraints>
-                                <connections>
-                                    <segue destination="ljD-dV-frr" kind="show" identifier="MasterToDetail" id="7iy-Uf-Y9r"/>
-                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -80,6 +77,9 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="7hu-B4-zXw"/>
+                    <connections>
+                        <segue destination="ljD-dV-frr" kind="show" identifier="MasterToDetail" id="dhv-JS-0g5"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clV-qg-PaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
